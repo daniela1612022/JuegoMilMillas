@@ -17,7 +17,7 @@ public class VentanaPrincipal extends JPanel{
 	public VentanaPrincipal() {
 		
 		setBackground(Color.white);
-		VentanaSeleccionJugadores vent1 = new VentanaSeleccionJugadores();
+		InterfazJuegoCartas vent1 = new InterfazJuegoCartas();
 		VentanaJugador vent2 = new VentanaJugador();
 		
 		vent2.setBackground(Color.BLUE);

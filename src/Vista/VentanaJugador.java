@@ -1,6 +1,5 @@
 package Vista;
 
-import java.awt.Dimension;
 import java.awt.Image;
 
 import javax.swing.ImageIcon;
@@ -11,7 +10,6 @@ import javax.swing.JPanel;
 import Controller.ControladorBaraja;
 import Controller.ControladorBotones;
 import Model.Baraja;
-import Model.Carta;
 import Model.CartaUsada;
 
 public class VentanaJugador extends JPanel {
