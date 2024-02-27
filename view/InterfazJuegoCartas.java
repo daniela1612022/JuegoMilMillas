@@ -18,7 +18,7 @@ public class InterfazJuegoCartas extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                ImageIcon imageIcon = new ImageIcon("assets/Fondo.gif");
+                ImageIcon imageIcon = new ImageIcon("C:\\Users\\57321\\Desktop\\NetBeansProjects\\JuegoMilMillas\\assets\\Fondo.gif");
                 Image image = imageIcon.getImage();
                 g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
             }
